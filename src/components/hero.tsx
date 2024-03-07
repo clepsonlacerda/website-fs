@@ -27,7 +27,7 @@ const Hero = () => {
             </p>
 
             {/* button */}
-            <button className="btn btn-lg btn-accent  mx-auto xl:mx-0">
+            <button className="btn btn-lg btn-accent-fs  mx-auto xl:mx-0">
               Entre em Contato
             </button>
           </div>
