@@ -4,6 +4,7 @@ import "./globals.css";
 import "./swiper-bundle.min.css";
 import Script from "next/script";
 import Header from "@/components/header";
+import Hero from "@/components/hero";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,6 +22,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Header />
+
+        <Hero />
 
         {children}
 
