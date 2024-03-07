@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "./swiper-bundle.min.css";
 import Script from "next/script";
+import Header from "@/components/header";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,11 +20,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Header />
+
         {children}
 
-        <Script type="text/javascript" src="swiper-bundle.min.js"></Script>
-        <Script type="text/javascript" src="main.js"></Script>
-        <Script type="text/javascript" src="scrollreveal.min.js"></Script>
+        <Script type="text/javascript" src="/scripts/swiper-bundle.min.js"></Script>
+        <Script type="text/javascript" src="/scripts/main.js"></Script>
+        <Script type="text/javascript" src="/scripts/scrollreveal.min.js"></Script>
       </body>
     </html>
   );

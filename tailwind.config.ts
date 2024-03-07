@@ -28,6 +28,16 @@ const config: Config = {
           tertiary: '#90c6cd',
         },
         grey: '#e8f0f1',
+        fspurple: '#9966FF',
+        fsblue1: '#336699',
+        fsblue2: '#3399CC',
+        fsdark1: '#0F0F0D',
+        fsdark2: '#18181B',
+        fsdark3: '#1A1A1A',
+        fsgray1: '#242424',
+        fsgray2: '#313131',
+        fsgray3: '#A1A1AA',
+        fswhite: '#F5F6F7',
       },
       fontFamily: {
         primary: 'Inter'
