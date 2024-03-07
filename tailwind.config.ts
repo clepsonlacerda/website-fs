@@ -47,11 +47,11 @@ const config: Config = {
         custom2: '0px 0px 30px 0px rgba(8, 73, 81, 0.06)',
       },
       backgroundImage: {
-        services: 'url(./assets/img/services/bg.svg)',
-        testimonials: 'url(./assets/img/testimonials/bg.svg)',
-        departments: 'url(./assets/img/departments/bg.svg)',
-        quoteLeft: 'url(./assets/img/testimonials/quote-left.svg)',
-        quoteRight: 'url(./assets/img/testimonials/quote-right.svg)',
+        services: 'url(/assets/img/services/bgfs.svg)',
+        testimonials: 'url(/assets/img/testimonials/bg.svg)',
+        departments: 'url(/assets/img/departments/bg.svg)',
+        quoteLeft: 'url(/assets/img/testimonials/quote-left.svg)',
+        quoteRight: 'url(/assets/img/testimonials/quote-right.svg)',
       }
     }
   },
