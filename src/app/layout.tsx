@@ -3,10 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import "./swiper-bundle.min.css";
 import Script from "next/script";
-import Header from "@/components/header";
-import Hero from "@/components/hero";
-import Stats from "@/components/stats";
-import Services from "@/components/services";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,17 +19,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Header />
-
-        <Hero />
-
-        <Stats />
-
-        <Services />
-
-        {/* div tem */}
-        <div className="h-[4000px]"></div>
-
         {children}
 
         <Script type="text/javascript" src="/scripts/swiper-bundle.min.js"></Script>
