@@ -21,4 +21,15 @@ closeBtn.addEventListener('click', () => {
     // closeBtnIcn.classList.toggle(arrowLeftClass);
     // closeBtnIcn.classList.toggle(arrowRightClass);
   }
-})
+});
+
+// swiper - site: https://swiperjs.com/get-started
+const swiper = new Swiper('.swiper', {
+  loop: true,
+
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
