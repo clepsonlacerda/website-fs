@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import "./swiper-bundle.min.css";
+import 'remixicon/fonts/remixicon.css'
 import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
