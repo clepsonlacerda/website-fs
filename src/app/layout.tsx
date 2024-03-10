@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {children}
 
-        <Script type="text/javascript" src="/scripts/swiper-bundle.min.js"></Script>
+        <Script type="text/javascript" src="/scripts/swiper-bundle.min.js" strategy="beforeInteractive"></Script>
         <Script type="text/javascript" src="/scripts/main.js"></Script>
         <Script type="text/javascript" src="/scripts/scrollreveal.min.js"></Script>
       </body>
