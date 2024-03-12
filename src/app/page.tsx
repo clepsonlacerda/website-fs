@@ -9,6 +9,7 @@ import Faq from "@/components/faq";
 import Department from "@/components/department";
 import Blog from "@/components/blog";
 import Brands from "@/components/brands";
+import Newsletter from "@/components/newsletter";
 
 export default function Home() {
   return (
@@ -34,6 +35,8 @@ export default function Home() {
       <Blog />
 
       <Brands />
+
+      <Newsletter />
 
       {/* div tem */}
       <div className="h-[4000px]"></div>
