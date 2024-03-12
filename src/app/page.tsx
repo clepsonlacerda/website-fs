@@ -7,6 +7,7 @@ import Testimonials from "@/components/testimonials";
 import Team from "@/components/team";
 import Faq from "@/components/faq";
 import Department from "@/components/department";
+import Blog from "@/components/blog";
 
 export default function Home() {
   return (
@@ -28,6 +29,8 @@ export default function Home() {
       <Faq />
 
       <Department />
+
+      <Blog />
 
       {/* div tem */}
       <div className="h-[4000px]"></div>
