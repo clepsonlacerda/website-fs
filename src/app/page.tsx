@@ -10,6 +10,7 @@ import Department from "@/components/department";
 import Blog from "@/components/blog";
 import Brands from "@/components/brands";
 import Newsletter from "@/components/newsletter";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
@@ -38,8 +39,10 @@ export default function Home() {
 
       <Newsletter />
 
+      <Footer />
+
       {/* div tem */}
-      <div className="h-[4000px]"></div>
+      {/* <div className="h-[4000px]"></div> */}
     </>
   );
 }
