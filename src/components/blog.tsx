@@ -17,7 +17,7 @@ const Blog = () => {
                 alt=""
               />
               {/* badge */}
-              <div className="bg-fsblue2 absolute bottom-0 left-0 text-fswhite 
+              <div className="bg-fspurple absolute bottom-0 left-0 text-fswhite 
                               text-base tracking-[2.24px] font-medium uppercase py-[6px] px-[18px]" >
                 Medical
               </div>
@@ -49,7 +49,7 @@ const Blog = () => {
                 alt=""
               />
               {/* badge */}
-              <div className="bg-fsblue2 absolute bottom-0 left-0 text-fswhite 
+              <div className="bg-fspurple absolute bottom-0 left-0 text-fswhite 
                               text-base tracking-[2.24px] font-medium uppercase py-[6px] px-[18px]" >
                 Medical
               </div>
@@ -81,7 +81,7 @@ const Blog = () => {
                 alt=""
               />
               {/* badge */}
-              <div className="bg-fsblue2 absolute bottom-0 left-0 text-fswhite 
+              <div className="bg-fspurple absolute bottom-0 left-0 text-fswhite 
                               text-base tracking-[2.24px] font-medium uppercase py-[6px] px-[18px]" >
                 Medical
               </div>

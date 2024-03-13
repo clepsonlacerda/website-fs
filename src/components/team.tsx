@@ -35,17 +35,17 @@ const Team = () => {
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime facilis accusantium ab?
                       </p>
                       {/* socials */}
-                      <div className="flex items-center text-[30px] gap-x-5 text-fsblue2/50">
-                        <a href="#" className="cursor-pointer hover:text-fsblue2 transition-all">
+                      <div className="flex items-center text-[30px] gap-x-5 text-fspurple/80">
+                        <a href="#" className="cursor-pointer hover:text-fspurple transition-all">
                           <YoutubeIcon />
                         </a>
-                        <a href="#" className="cursor-pointer hover:text-fsblue2 transition-all">
+                        <a href="#" className="cursor-pointer hover:text-fspurple transition-all">
                           <FacebookIcon />
                         </a>
-                        <a href="#" className="cursor-pointer hover:text-fsblue2 transition-all">
+                        <a href="#" className="cursor-pointer hover:text-fspurple transition-all">
                           <InstagramIcon />
                         </a>
-                        <a href="#" className="cursor-pointer hover:text-fsblue2 transition-all">
+                        <a href="#" className="cursor-pointer hover:text-fspurple transition-all">
                           <LinkedinIcon />
                         </a>
                       </div>
@@ -73,17 +73,17 @@ const Team = () => {
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime facilis accusantium ab?
                       </p>
                       {/* socials */}
-                      <div className="flex items-center text-[30px] gap-x-5 text-fsblue2/50">
-                        <a href="#" className="cursor-pointer hover:text-fsblue2 transition-all">
+                      <div className="flex items-center text-[30px] gap-x-5 text-fspurple/80">
+                        <a href="#" className="cursor-pointer hover:text-fspurple transition-all">
                           <YoutubeIcon />
                         </a>
-                        <a href="#" className="cursor-pointer hover:text-fsblue2 transition-all">
+                        <a href="#" className="cursor-pointer hover:text-fspurple transition-all">
                           <FacebookIcon />
                         </a>
-                        <a href="#" className="cursor-pointer hover:text-fsblue2 transition-all">
+                        <a href="#" className="cursor-pointer hover:text-fspurple transition-all">
                           <InstagramIcon />
                         </a>
-                        <a href="#" className="cursor-pointer hover:text-fsblue2 transition-all">
+                        <a href="#" className="cursor-pointer hover:text-fspurple transition-all">
                           <LinkedinIcon />
                         </a>
                       </div>
@@ -116,17 +116,17 @@ const Team = () => {
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime facilis accusantium ab?
                       </p>
                       {/* socials */}
-                      <div className="flex items-center text-[30px] gap-x-5 text-fsblue2/50">
-                        <a href="#" className="cursor-pointer hover:text-fsblue2 transition-all">
+                      <div className="flex items-center text-[30px] gap-x-5 text-fspurple/80">
+                        <a href="#" className="cursor-pointer hover:text-fspurple transition-all">
                           <YoutubeIcon />
                         </a>
-                        <a href="#" className="cursor-pointer hover:text-fsblue2 transition-all">
+                        <a href="#" className="cursor-pointer hover:text-fspurple transition-all">
                           <FacebookIcon />
                         </a>
-                        <a href="#" className="cursor-pointer hover:text-fsblue2 transition-all">
+                        <a href="#" className="cursor-pointer hover:text-fspurple transition-all">
                           <InstagramIcon />
                         </a>
-                        <a href="#" className="cursor-pointer hover:text-fsblue2 transition-all">
+                        <a href="#" className="cursor-pointer hover:text-fspurple transition-all">
                           <LinkedinIcon />
                         </a>
                       </div>
@@ -154,17 +154,17 @@ const Team = () => {
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime facilis accusantium ab?
                       </p>
                       {/* socials */}
-                      <div className="flex items-center text-[30px] gap-x-5 text-fsblue2/50">
-                        <a href="#" className="cursor-pointer hover:text-fsblue2 transition-all">
+                      <div className="flex items-center text-[30px] gap-x-5 text-fspurple/80">
+                        <a href="#" className="cursor-pointer hover:text-fspurple transition-all">
                           <YoutubeIcon />
                         </a>
-                        <a href="#" className="cursor-pointer hover:text-fsblue2 transition-all">
+                        <a href="#" className="cursor-pointer hover:text-fspurple transition-all">
                           <FacebookIcon />
                         </a>
-                        <a href="#" className="cursor-pointer hover:text-fsblue2 transition-all">
+                        <a href="#" className="cursor-pointer hover:text-fspurple transition-all">
                           <InstagramIcon />
                         </a>
-                        <a href="#" className="cursor-pointer hover:text-fsblue2 transition-all">
+                        <a href="#" className="cursor-pointer hover:text-fspurple transition-all">
                           <LinkedinIcon />
                         </a>
                       </div>
