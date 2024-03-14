@@ -16,7 +16,7 @@ const Header = () => {
           {/* location */}
           <div className="flex justify-center items-center gap-x-2 lg:justify-normal">
             <MapPinIcon className="text-2xl text-fspurple" />
-            <div className="text-fsgray3">123 Arling, Miola, NY</div>
+            <div className="text-fsgray3">Brejo Santo, CE</div>
           </div>
 
           {/* fone */}
@@ -27,7 +27,7 @@ const Header = () => {
 
           {/* btn */}
           <button className="btn btn-sm btn-outline-fs w-[240px] lg:w-auto mx-auto lg:mx-0">
-            book now
+            Agende Agora
           </button>
 
           {/* mobile nav */}
@@ -96,16 +96,16 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a href="#" className="border-r pr-4 text-fsgray3 hover:text-fsblue2 transition-all duration-300">
+                <a href="#services" className="border-r pr-4 text-fsgray3 hover:text-fsblue2 transition-all duration-300">
                   Serviços
                 </a>
               </li>
               <li>
-                <a href="#" className="border-r pr-4 text-fsgray3 hover:text-fsblue2 transition-all duration-300">
+                <a href="#contacts" className="border-r pr-4 text-fsgray3 hover:text-fsblue2 transition-all duration-300">
                   Contato
                 </a>
               </li>                <li>
-                <a href="#" className="text-fsgray3 hover:text-fsblue2 transition-all duration-300">
+                <a href="#a" className="text-fsgray3 hover:text-fsblue2 transition-all duration-300">
                   Sobre
                 </a>
               </li>

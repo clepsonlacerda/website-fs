@@ -1,6 +1,6 @@
 const Services = () => {
   return (
-    <section className="services">
+    <section className="services" id="services">
       {/* bg */}
       <div className="bg-services bg-cover bg-no-repeat max-w-[1466px] mx-4 xl:mx-auto 
                       rounded-[20px] xl:pt-[70px] px-6 xl:px-0 relative h-[368px] flex items-center xl:items-start -z-10">

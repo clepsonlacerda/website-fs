@@ -34,7 +34,7 @@ const Hero = () => {
 
           {/* image */}
           <div className="hero__img hidden xl:flex max-w-[814px] self-end">
-            <img src="/assets/img/hero/img.png" alt="" />
+            <img src="/assets/img/hero/ad.png" alt="" />
           </div>
         </div>
       </div>
