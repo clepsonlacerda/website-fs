@@ -23,8 +23,8 @@ export default function RootLayout({
         {children}
 
         <Script type="text/javascript" src="/scripts/swiper-bundle.min.js" strategy="beforeInteractive"></Script>
-        <Script type="text/javascript" src="/scripts/main.js"></Script>
         <Script type="text/javascript" src="/scripts/scrollreveal.min.js"></Script>
+        <Script type="text/javascript" src="/scripts/main.js"></Script>
       </body>
     </html>
   );
