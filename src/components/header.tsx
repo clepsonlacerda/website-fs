@@ -101,7 +101,7 @@ const Header = () => {
                 </a>
               </li>
               <li>
-                <a href="#contacts" className="border-r pr-4 text-fsgray3 hover:text-fsblue2 transition-all duration-300">
+                <a href="#appointment" className="border-r pr-4 text-fsgray3 hover:text-fsblue2 transition-all duration-300">
                   Contato
                 </a>
               </li>                <li>

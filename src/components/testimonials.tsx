@@ -31,9 +31,9 @@ const Testimonials = () => {
                         </span>
                       </p>
                       {/* name */}
-                      <div className="text-[26px] text-fsgray2 font-semibold">Jams Rodrigo</div>
+                      <div className="text-[26px] text-fsgray2 font-semibold">Carlos Rodrigo</div>
                       {/* job */}
-                      <div className="text-fsgray2 font-medium uppercase tracking-[2.24px]">Customer</div>
+                      <div className="text-fsgray2 font-medium uppercase tracking-[2.24px]">Analista</div>
                     </div>
                   </div>
                 </div>
@@ -54,9 +54,9 @@ const Testimonials = () => {
                         </span>
                       </p>
                       {/* name */}
-                      <div className="text-[26px] text-fsgray2 font-semibold">Jams Rodrigo</div>
+                      <div className="text-[26px] text-fsgray2 font-semibold">Marcos Silveira</div>
                       {/* job */}
-                      <div className="text-fsgray2 font-medium uppercase tracking-[2.24px]">Customer</div>
+                      <div className="text-fsgray2 font-medium uppercase tracking-[2.24px]">Vendedor</div>
                     </div>
                   </div>
                 </div>

@@ -2,7 +2,7 @@ import { ChevronDownIcon } from "lucide-react";
 
 const Appointment = () => {
   return (
-    <section className="appointment section">
+    <section className="appointment section" id="appointment">
       <div className="container mx-auto">
         {/* title */}
         <h2 className="appointment__title h2 mb-5 xl:mb-[50px] text-center xl:text-left">
@@ -52,7 +52,7 @@ const Appointment = () => {
           {/* input wrapper */}
           <div className="flex flex-col xl:flex-row gap-5">
             <input className="input" type="text" placeholder="Informe seu Nome" />
-            <input className="input" type="text" placeholder="Informe seu Número" />
+            <input className="input" type="text" placeholder="Informe seu Número ou Whatsapp" />
           </div>
 
           {/* input wrapper */}
