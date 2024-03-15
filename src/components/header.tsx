@@ -26,9 +26,9 @@ const Header = () => {
           </div>
 
           {/* btn */}
-          <button className="btn btn-sm btn-outline-fs w-[240px] lg:w-auto mx-auto lg:mx-0">
+          <a href="#appointment" className="btn btn-sm btn-outline-fs w-[240px] lg:w-auto mx-auto lg:mx-0">
             Agende Agora
-          </button>
+          </a>
 
           {/* mobile nav */}
           <nav className="mnav bg-fsdark3 fixed w-[300px] top-0 h-screen -left-[300px] 
