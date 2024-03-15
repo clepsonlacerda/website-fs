@@ -17,7 +17,7 @@ const Appointment = () => {
           {/* select wrapper */}
           <div className="flex flex-col xl:flex-row gap-5">
             {/* select 1 */}
-            <div className="select relative flex items-center">
+            <div className="select relative flex items-center hidden">
               {/* icon */}
               <div className="absolute right-4">
                 <ChevronDownIcon className="text-[26px] text-fsgray1" />
@@ -25,15 +25,15 @@ const Appointment = () => {
 
               {/* select */}
               <select className="appearance-none outline-none h-full w-full bg-transparent px-4" >
-                <option value="1">Select department</option>
-                <option value="2">Department 1</option>
-                <option value="3">Department 2</option>
-                <option value="4">Department 3</option>
+                <option value="1">Assunto</option>
+                <option value="2">Tráfego Pago</option>
+                <option value="3">Divulgação</option>
+                <option value="4">Vendas</option>
               </select>
             </div>
 
             {/* select 2 */}
-            <div className="select relative flex items-center">
+            <div className="select relative flex items-center hidden">
               {/* icon */}
               <div className="absolute right-4">
                 <ChevronDownIcon className="text-[26px] text-fsgray1" />
@@ -51,8 +51,14 @@ const Appointment = () => {
 
           {/* input wrapper */}
           <div className="flex flex-col xl:flex-row gap-5">
-            <input className="input" type="text" placeholder="Full Name" />
-            <input className="input" type="text" placeholder="Phone Number" />
+            <input className="input" type="text" placeholder="Informe seu Nome" />
+            <input className="input" type="text" placeholder="Informe seu Número" />
+          </div>
+
+          {/* input wrapper */}
+          <div className="flex flex-col xl:flex-row gap-5">
+            <input className="input" type="text" placeholder="Informe o Assunto" />
+            <input className="input" type="text" placeholder="Informe seu Email" />
           </div>
 
           {/* input wrapper */}
@@ -63,7 +69,7 @@ const Appointment = () => {
 
           {/* btn */}
           <button className="btn btn-lg btn-accent-fs self-start">
-            Book an appointment
+            Agende uma Consulta
           </button>
         </form>
       </div>
