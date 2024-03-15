@@ -10,45 +10,39 @@ const Department = () => {
                             font-medium uppercase text-center xl:text-left text-base text-fsgray3
                             xl:pt-3 xl:text-[17px] mb-[50px] xl:mb-0">
               <div className="cursor-pointer hover:text-fsblue2 transition-all">
-                Laboratory Analysis
+                Gestão de tráfego
               </div>
               <div className="cursor-pointer hover:text-fsblue2 transition-all">
-                Laboratory Analysis
+                Gerenciamento de Redes Sociais
               </div>
               <div className="cursor-pointer hover:text-fsblue2 transition-all">
-                Laboratory Analysis
+                Criação de Landing Pages
               </div>
               <div className="cursor-pointer hover:text-fsblue2 transition-all">
-                Laboratory Analysis
-              </div>
-              <div className="cursor-pointer hover:text-fsblue2 transition-all">
-                Laboratory Analysis
-              </div>
-              <div className="cursor-pointer hover:text-fsblue2 transition-all">
-                Laboratory Analysis
+                Criação de Sites
               </div>
             </div>
             <div className="xl:w-[640px]">
               {/* title */}
               <h2 className="h2 mb-[20px] text-center xl:text-left">
-                Cardiology Clinic
+                Gestão de tráfego
               </h2>
 
               {/* description */}
               <p className="mb-[30px] font-light text-center xl:text-left">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque dicta recusandae eaque qui adipisci velit amet iure natus eum commodi magnam totam, animi quos laudantium! Distinctio quia aspernatur cupiditate reprehenderit.
+                <span className="font-semibold">Como podemos impulsionar o seu negócio:</span> Estratégia meticulosa, planejamento detalhado e execução precisa de campanhas pagas nas principais plataformas online para atrair uma audiência qualificada e aumentar a base de clientes.
                 <br /><br />
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo dolorem iure nobis, architecto voluptatem quas esse, cupiditate suscipit iste voluptate atque culpa veritatis omnis. Blanditiis rem voluptates sunt temporibus quis.
+                <span className="font-semibold">Qual impacto isso traz para o seu empreendimento:</span> A gestão do tráfego pago tem um impacto direto no aumento do tráfego qualificado para o seu site, o que resulta em maior reconhecimento da marca, geração de leads qualificados e um impulso nas vendas, contribuindo significativamente para o crescimento e sucesso do seu negócio online.
               </p>
               <div className="flex flex-col xl:flex-row items-center xl:justify-between
-                              max-w-[555px] mb-[50px] mx-auto xl:mx-0">
+                              max-w-[555px] mb-[50px] mx-auto xl:mx-0 hidden">
                 <div className="text-fsblue2 xl:border-r border-fsgray3 xl:pr-6">Neurocritical Care</div>
                 <div className="text-fsblue2 xl:border-r border-fsgray3 xl:pr-6">Neurocritical Care</div>
                 <div className="text-fsblue2">Neurocritical Care</div>
               </div>
-              <button className="btn btn-lg btn-accent-fs mx-auto xl:mx-0">
-                Learn more
-              </button>
+              <a href="#appointment" className="w-[220px] btn btn-lg btn-accent-fs mx-auto xl:mx-0">
+                Saiba mais
+              </a>
             </div>
           </div>
 

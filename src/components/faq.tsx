@@ -4,7 +4,7 @@ const Faq = () => {
   return (
     <section className="faq">
       <div className="container mx-auto">
-        <h2 className="faq__title h2 text-center mb-[50px]">We've got asnwers</h2>
+        <h2 className="faq__title h2 text-center mb-[50px]">Nós temos respostas</h2>
         {/* item wrapper */}
         <div className="max-w-5xl mx-auto">
           {/* item */}
