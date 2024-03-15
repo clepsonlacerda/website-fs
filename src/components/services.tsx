@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 const Services = () => {
   return (
     <section className="services" id="services">
@@ -8,12 +9,11 @@ const Services = () => {
           {/* text */}
           <div className="services__top flex items-center flex-col xl:flex-row xl:mb-[60px]">
             <h2 className="h2 text-white flex-1 mb-4 xl:mb-0 text-center xl:text-left">
-              Nossos melhores serviços para sua solução
+              Nossos melhores serviços para seu Problema
             </h2>
             <p className="text-white flex-1 text-center xl:text-left max-w-2xl xl:max-w-none">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Cupiditate non ex rem molestiae ut, est qui accusantium, nam id nisi inventore,
-              totam facere tenetur autem. Accusantium impedit animi doloribus maiores.
+              Explore nossos diversos serviços premium para encontrar a solução ideal para você:
+              uma fusão perfeita entre qualidade e excelência.
             </p>
           </div>
         </div>
@@ -28,13 +28,13 @@ const Services = () => {
                           min-h-[288px] flex flex-col items-center text-center">
             {/* grid item icon */}
             <div className="mb-[15px]">
-              <img src="assets/icons/services/icon-1.svg" alt="" />
+              <img src="assets/icons/services/icon-5.png" alt="" />
             </div>
             {/* grid item title */}
             <h3 className="h3 mb-[10px]">Impulsionar posts</h3>
             {/* grid item description */}
             <p className="font-light leading-normal max-w-[300px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, impedit.
+              Maximize o alcance e o engajamento do seu conteúdo online com nosso serviço de impulsionamento de posts estrategicamente direcionado para atingir seu público-alvo.
             </p>
           </div>
 
@@ -43,13 +43,13 @@ const Services = () => {
                           min-h-[288px] flex flex-col items-center text-center">
             {/* grid item icon */}
             <div className="mb-[15px]">
-              <img src="assets/icons/services/icon-2.svg" alt="" />
+              <img src="assets/icons/services/icon-5.png" alt="" />
             </div>
             {/* grid item title */}
-            <h3 className="h3 mb-[10px]">Impulsionar posts</h3>
+            <h3 className="h3 mb-[10px]">Aumentar vendas</h3>
             {/* grid item description */}
             <p className="font-light leading-normal max-w-[300px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, impedit.
+              Maximize suas vendas online com nossas estratégias avançadas de tráfego pago, direcionando o público certo para o seu site e impulsionando as conversões.
             </p>
           </div>
 
@@ -58,13 +58,13 @@ const Services = () => {
                           min-h-[288px] flex flex-col items-center text-center">
             {/* grid item icon */}
             <div className="mb-[15px]">
-              <img src="assets/icons/services/icon-3.svg" alt="" />
+              <img src="assets/icons/services/icon-5.png" alt="" />
             </div>
             {/* grid item title */}
-            <h3 className="h3 mb-[10px]">Impulsionar posts</h3>
+            <h3 className="h3 mb-[10px]">Divulgação</h3>
             {/* grid item description */}
             <p className="font-light leading-normal max-w-[300px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, impedit.
+              Alcance novos clientes e aumente a visibilidade da sua empresa com nossos serviços de tráfego pago, garantindo uma divulgação eficaz e direcionada para o seu negócio.
             </p>
           </div>
 
@@ -73,13 +73,13 @@ const Services = () => {
                           min-h-[288px] flex flex-col items-center text-center">
             {/* grid item icon */}
             <div className="mb-[15px]">
-              <img src="assets/icons/services/icon-4.svg" alt="" />
+              <img src="assets/icons/services/icon-5.png" alt="" />
             </div>
             {/* grid item title */}
-            <h3 className="h3 mb-[10px]">Impulsionar posts</h3>
+            <h3 className="h3 mb-[10px]">Marketing</h3>
             {/* grid item description */}
             <p className="font-light leading-normal max-w-[300px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, impedit.
+              Impulsione seu marketing online com nossas estratégias de tráfego pago, alcançando um público mais amplo e aumentando o reconhecimento da sua marca.
             </p>
           </div>
         </div>
