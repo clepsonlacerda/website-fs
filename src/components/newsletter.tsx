@@ -13,11 +13,11 @@ const Newsletter = () => {
           {/* text */}
           <div className="flex-1 z-10 text-center md:text-left">
             <div className="text-base uppercase text-fswhite tracking-[2.24px] font-medium">
-              Our newsletter
+              Para Mais Informações{/* Our newsletter */}
             </div>
 
             <h1 className="h1 mb-4 text-fswhite">
-              Subscribe to get more updates
+              Inscreva-se para receber mais informações
             </h1>
           </div>
 
