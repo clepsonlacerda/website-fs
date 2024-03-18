@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <header className="py-8 lg:pt-6 lg:pb-14 bg-fsgray2">
+    <header className="py-8 lg:pt-6 lg:pb-14 bg-fsgray2" id="header">
       <div className="container mx-auto lg:relative flex flex-col lg:flex-row lg:justify-between lg:items-center gap-y-4 lg:gap-y-0">
         {/* logo */}
         <div className="flex justify-center lg:justify-normal">
@@ -55,12 +55,12 @@ const Header = () => {
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-fsgray3 hover:text-fsblue2 transition-all duration-300">
+                  <a href="#services" className="text-fsgray3 hover:text-fsblue2 transition-all duration-300">
                     Serviços
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="text-fsgray3 hover:text-fsblue2 transition-all duration-300">
+                  <a href="#appointment" className="text-fsgray3 hover:text-fsblue2 transition-all duration-300">
                     Contato
                   </a>
                 </li>                <li>

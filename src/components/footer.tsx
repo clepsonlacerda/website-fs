@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 const Footer = () => {
   return (
     <footer className="footer pt-12 xl:pt-[150px]">
@@ -11,7 +12,7 @@ const Footer = () => {
             </a>
             {/* description */}
             <p className="mb-[20px]">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, doloribus?
+              Nosso compromisso é oferecer estratégias de tráfego pago eficazes e de fácil utilização.
             </p>
             {/* location, email & phone */}
             <div className="flex flex-col gap-y-3 mb-10">
@@ -51,55 +52,55 @@ const Footer = () => {
 
           {/* footer quick links section */}
           <div className="footer__item flex-1">
-            <h4 className="h4 mb-5">Quick Links</h4>
+            <h4 className="h4 mb-5">Links Rápidos</h4>
             <div className="flex gap-x-5">
               {/* list 1 */}
               <ul className="flex-1 flex flex-col gap-y-5">
-                <li><a href="#" className="hover:text-fsblue2 transition-all">Inicio</a></li>
-                <li><a href="#" className="hover:text-fsblue2 transition-all">Contato</a></li>
-                <li><a href="#" className="hover:text-fsblue2 transition-all">Serviços</a></li>
+                <li><a href="#header" className="hover:text-fsblue2 transition-all">Inicio</a></li>
+                <li><a href="#appointment" className="hover:text-fsblue2 transition-all">Contato</a></li>
+                <li><a href="#services" className="hover:text-fsblue2 transition-all">Serviços</a></li>
                 <li><a href="#" className="hover:text-fsblue2 transition-all">Sobre</a></li>
               </ul>
 
               {/* list 2 */}
               <ul className="flex-1 flex flex-col gap-y-5">
-                <li><a href="#" className="hover:text-fsblue2 transition-all">Nossos Preços</a></li>
-                <li><a href="#" className="hover:text-fsblue2 transition-all">Carreiras</a></li>
-                <li><a href="#" className="hover:text-fsblue2 transition-all">Faqs</a></li>
-                <li><a href="#" className="hover:text-fsblue2 transition-all">Privacy Policy</a></li>
+                <li><a href="#appointment" className="hover:text-fsblue2 transition-all">Nossos Preços</a></li>
+                <li><a href="#" className="hover:text-fsblue2 transition-all">Blog</a></li>
+                <li><a href="#" className="hover:text-fsblue2 transition-all">Dúvidas</a></li>
+                <li><a href="#" className="hover:text-fsblue2 transition-all">Política de Privacidade</a></li>
               </ul>
             </div>
           </div>
 
           {/* footer opening hours section */}
-          <div className="footer__item flex-1">
-            <h4 className="h4 mb-5">Opening Hours</h4>
+          <div className="footer__item flex-1 hi">
+            <h4 className="h4 mb-5">Alguns assuntos</h4>
 
             {/* list */}
             <div className="flex flex-col gap-5">
               {/* item1 */}
               <div className="flex-1">
                 <div className="flex justify-between items-center border-b pb-[10px]">
-                  <div>Monday - Thursday</div>
-                  <div className="text-fsblue2 font-medium">8:00 Am - 6:00 Pm</div>
+                  <div>#TrafegoPago</div>
+                  <div className="text-fsblue2 font-medium">O que é Tráfego Pago?</div>
                 </div>
               </div>
               <div className="flex-1">
                 <div className="flex justify-between items-center border-b pb-[10px]">
-                  <div>Friday - Saturday</div>
-                  <div className="text-fsblue2 font-medium">10:00 Am - 4:00 Pm</div>
+                  <div>#TrafegoPago</div>
+                  <div className="text-fsblue2 font-medium">Tráfego Orgânico ou Pago?</div>
                 </div>
               </div>
               <div className="flex-1">
                 <div className="flex justify-between items-center border-b pb-[10px]">
-                  <div>Sunday</div>
-                  <div className="text-fsblue2 font-medium">Emergency Only</div>
+                  <div>#Site</div>
+                  <div className="text-fsblue2 font-medium">Por que ter uma Landing Page?</div>
                 </div>
               </div>
               <div className="flex-1">
                 <div className="flex justify-between items-center border-b pb-[10px]">
-                  <div>Personal</div>
-                  <div className="text-fsblue2 font-medium">7:00 Am - 9:00 Pm</div>
+                  <div>#Site</div>
+                  <div className="text-fsblue2 font-medium">A importância de um site</div>
                 </div>
               </div>
             </div>
@@ -111,7 +112,7 @@ const Footer = () => {
       < div className="py-[30px] border-t" >
         <div className="container mx-auto text-center">
           <div className="font-light text-base">
-            &copy; 2024 Insove - All rights reserved.
+            &copy; 2024 Fabrica de Soluções - Todo os direitos reservados.
           </div>
         </div>
       </div >
