@@ -11,6 +11,7 @@ import Blog from "@/components/blog";
 import Brands from "@/components/brands";
 import Newsletter from "@/components/newsletter";
 import Footer from "@/components/footer";
+import About from "@/components/about";
 
 export default function Home() {
   return (
@@ -27,13 +28,15 @@ export default function Home() {
 
       <Testimonials />
 
-      <Team />
+      {/* <Team /> */}
 
       <Faq />
 
       <Department />
 
       <Blog />
+
+      <About />
 
       <Brands />
 

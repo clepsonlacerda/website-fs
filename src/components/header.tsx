@@ -64,7 +64,7 @@ const Header = () => {
                     Contato
                   </a>
                 </li>                <li>
-                  <a href="#" className="text-fsgray3 hover:text-fsblue2 transition-all duration-300">
+                  <a href="#about" className="text-fsgray3 hover:text-fsblue2 transition-all duration-300">
                     Sobre
                   </a>
                 </li>
@@ -79,7 +79,7 @@ const Header = () => {
                   type="text"
                   id="mnav-search-input"
                   placeholder="Pesquise..."
-                  className="outline-none bg-fsdark1 w-[160px] border-b-2 focus:border-b-2 border-fsgray3 focus:border-fsblue2 placeholder:italic"
+                  className="outline-none bg-fsdark3 w-[160px] border-b-2 focus:border-b-2 border-fsgray3 focus:border-fsblue2 placeholder:italic"
                 />
               </form>
             </div>
@@ -104,8 +104,9 @@ const Header = () => {
                 <a href="#appointment" className="border-r pr-4 text-fsgray3 hover:text-fsblue2 transition-all duration-300">
                   Contato
                 </a>
-              </li>                <li>
-                <a href="#a" className="text-fsgray3 hover:text-fsblue2 transition-all duration-300">
+              </li>
+              <li>
+                <a href="#about" className="text-fsgray3 hover:text-fsblue2 transition-all duration-300">
                   Sobre
                 </a>
               </li>

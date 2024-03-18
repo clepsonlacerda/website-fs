@@ -50,6 +50,7 @@ const config: Config = {
         services: 'url(/assets/img/services/bgfs.svg)',
         testimonials: 'url(/assets/img/testimonials/bg.svg)',
         departments: 'url(/assets/img/departments/bg.svg)',
+        about: 'url(/assets/img/about/bg.png)',
         quoteLeft: 'url(/assets/icons/testimonials/quote-left.svg)',
         quoteRight: 'url(/assets/icons/testimonials/quote-right.svg)',
       }

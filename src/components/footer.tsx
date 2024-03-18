@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 /* eslint-disable @next/next/no-img-element */
 const Footer = () => {
   return (
@@ -37,7 +39,9 @@ const Footer = () => {
               </div>
               <div className="p-[10px] rounded-[10px] shadow-custom2 text-fsblue2/85
                               hover:text-fsblue2 cursor-pointer transition-all">
-                <i className="ri-instagram-line"></i>
+                <Link href="https://www.instagram.com/fabricadesolucoes_/" target="_blank" >
+                  <i className="ri-instagram-line"></i>
+                </Link>
               </div>
               <div className="p-[10px] rounded-[10px] shadow-custom2 text-fsblue2/85
                               hover:text-fsblue2 cursor-pointer transition-all">

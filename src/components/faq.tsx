@@ -2,7 +2,7 @@ import { PlusIcon } from "lucide-react";
 
 const Faq = () => {
   return (
-    <section className="faq">
+    <section className="faq mt-[100px]">
       {/* site de inspiração: https://beginmkt.com.br/pilares-trafego-pago/ */}
       <div className="container mx-auto">
         <h2 className="faq__title h2 text-center mb-[50px]">Nós temos respostas</h2>

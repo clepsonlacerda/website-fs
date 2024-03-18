@@ -55,8 +55,8 @@ console.log('main')
 const sr = ScrollReveal({
   origin: 'bottom',
   distance: '50px',
-  duration: 3000,
-  delay: 100, // 600
+  duration: 1000, // 3000
+  delay: 50, // 600
   // reset: true // resets animations
 });
 
@@ -93,6 +93,9 @@ sr.reveal('.testimonial__container');
 // team
 sr.reveal('.team__title');
 sr.reveal('.team__slider');
+
+// team
+sr.reveal('.about');
 
 // faq
 sr.reveal('.faq__title');
