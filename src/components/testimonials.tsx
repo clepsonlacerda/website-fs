@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 const Testimonials = () => {
   return (
     <section className="testimonial bg-testimonials bg-cover bg-right bg-no-repeat py-12 xl:min-h-[595px] xl:py-0">

@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 const Newsletter = () => {
   return (
     <section className="newsletter bg-fsblue2 md:h-[444px] py-12 flex items-center relative overflow-hidden">
