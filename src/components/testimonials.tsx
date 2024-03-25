@@ -26,15 +26,15 @@ const Testimonials = () => {
                                   after:w-10 after:h-10 after:bg-no-repeat mb-7">
                         {/* message */}
                         <span className="mx-2">
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
-                          velit beatae molestias dignissimos eius eligendi, odit, ducimus quo
-                          nihil quos laudantium quisquam hic ut animi facere consequuntur qui voluptate et?
+                          Eu queria falar sobre um site o qual eu adquiri pelo pessoal da Fabrica de Soluções.
+                          Depois do uso desse site, tem aumentado a minha visibilidade do instagram e eu recomendo a vocês.
+                          Então é isso, faça o teste, adquira um site e vocês não vão se arrepender.
                         </span>
                       </p>
                       {/* name */}
-                      <div className="text-[26px] text-fsgray2 font-semibold">Carlos Rodrigo</div>
+                      <div className="text-[26px] text-fsgray2 font-semibold">Seu Messias</div>
                       {/* job */}
-                      <div className="text-fsgray2 font-medium uppercase tracking-[2.24px]">Analista</div>
+                      <div className="text-fsgray2 font-medium uppercase tracking-[2.24px]">Cabeleireiro</div>
                     </div>
                   </div>
                 </div>
